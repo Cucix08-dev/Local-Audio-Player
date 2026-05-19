@@ -1,0 +1,13 @@
+#search-bar{
+    background-color: rgb(68, 68, 68);
+    border: solid 2px black;
+    padding: 1% 1.5%;
+    border-radius: 30px;
+    width: 50%;
+    color: var(--theme);
+}
+
+#search-bar:focus{
+    box-shadow: var(--glow-effect-search-bar);
+    outline: none;
+}

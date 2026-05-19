@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/disco/disco.css">
+    <link rel="stylesheet" href="src/slider/slider.css">
+    <link rel="stylesheet" href="src/songContainer/song.css">
+    <link rel="stylesheet" href="src/searchBar/searchar.css">
+</head>
+<body>
+    <header>
+        <h1 id="title-page">Local audio player</h1>
+        <input type="text" id="search-bar" placeholder="Song name">
+        
+    </header>
+    <main>
+        <div id="song-manipolation">
+            <div id="song-selected">
+                <div id="disco">
+                    <img id="cover" src="imgs/song.jpg" alt="cover">
+                </div>
+                <h2 id="song-name"></h2>
+            </div>
+
+            <div id="container-and-songlist">
+                <div id="songs">
+
+                </div>
+            </div>
+        </div>
+    
+        <div id="action-div">
+            <div id="play-pause">
+                <svg id="play" viewBox="0 0 24 24" width="28" height="28">
+                    <polygon points="6,4 20,12 6,20" fill="black" />
+                </svg>
+
+                <svg id="pause" viewBox="0 0 24 24" width="28" height="28">
+                    <rect x="5" y="4" width="4" height="16" fill="black" />
+                    <rect x="14" y="4" width="4" height="16" fill="black" />
+                </svg>
+            </div>
+            <input 
+                type="range"
+                id="song-duration"
+                min="0"
+                max="100"
+                value="0"
+            >
+        </div>
+    </main>
+    <audio id="main-audio" style="display: none;"></audio>
+
+    <script src="declarations.js"></script>
+
+    <script src="songLoader.js"></script>
+    <script src="src/slider/slider.js"></script>
+    <script src="src/songContainer/song.js"></script>
+    <script src="song_manipolation.js"></script>
+    <script src="src/searchBar/searchBar.js"></script>
+    <script src="src/disco/disco.js"></script>
+</body>
+</html>
