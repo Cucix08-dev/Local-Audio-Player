@@ -1,4 +1,5 @@
 ITA
+
 Come funziona il Sito?
 Bisogna mettere all'interno della cartella songs degli mp3, oppure wav, ogg, m4a.
 
@@ -9,6 +10,7 @@ L'immagine di predefinito e' Geto, che si trova nel imgs/song.jpg, se volete cam
 Per il corretto funzionamento del sito, e' consigliato scaricarlo e hostarlo localmente e inserire tutti i file audio desiderati all'interno della cartella songs.
 
 EN
+
 How Does the Site Work?
 You need to place .mp3, .wav, .ogg, or .m4a files inside the songs folder.
 
