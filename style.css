@@ -47,13 +47,19 @@ header{
 #song-manipolation{
     background-color: rgb(39, 39, 39);
     display: flex;
-    margin: 3% 0;
+    margin: 3% auto;
+    border-radius: 5vw;
+    width: 90vw;
+    max-width: 1600px;
     height: 50vw;
     max-height: 700px;
 }
 
 #song-selected{
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #container-and-songlist{
